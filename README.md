@@ -2,7 +2,7 @@
 
 ###About
 
-Compress size of jpg images with [PIL](http://www.pythonware.com/products/pil/). Included with two folders with images for testing purpose.
+Compress size of jpg images reducing overall size with [PIL](http://www.pythonware.com/products/pil/). Included with two folders with images for testing purpose.
 
 ###Screenshot
 
@@ -14,6 +14,8 @@ Compress size of jpg images with [PIL](http://www.pythonware.com/products/pil/).
 ```
 python compress.py /path/to/the/root/folder
 ```
+
+Script will iterate over all sub folders in root directory and catch every image that ends with ```'.jpg'``` and compress it.
 
 ###Requirements
 
